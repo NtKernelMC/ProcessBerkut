@@ -1,20 +1,22 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Process Berkut Library
+Modules for AntiCheat Launcher & Client
+Task: Prevent Process Starter Injection
+Copyright: NtKernelMC
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# FEATURES
+~ Protected from intercepting process handle by ZwCreateUserProcess hooks
+~ Protected from launching process by fake launcher
+~ Hard and tangled algorithm for launcher -> client communication
+~ Support for x86-x64 architectures and Windows Vista+ OS
+# ФУНКЦИОНАЛ
+~ Защита от перехвата процесс-хендла ZwCreateUserProcess хукам
+~ Защита от запуска процесса игры с помощью фейкового лаунчера
+~ Сложный и запутаный алгоритм общения между модулями лаунчера и клиента
+~ Поддержка х86-х64 битных архитектур и оперативных систем Windows начиная с Vista и выше
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+There is no need to explain how to build static library :/
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Anyone can make this project better, do pull request with your designs!
